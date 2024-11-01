@@ -1,0 +1,12 @@
+1- alım sayfasında barkodu yazınca otomatik bir şekilde yüklenmiyor
+
+2-  para yatır çek kısımları tamamlanması lazım
+
+3-  alınan mal işlemler kısmındaki açıklaması yok (purchase post ta sıkıntı var) YAPILDI
+
+4- formları doldurduktan sonra uyarı pop upları ver 
+a sale yapıldı
+b purchase yapıldı
+c catalog
+
+5-purchase sayfasına ana sayfaya geri dön butonu ekle

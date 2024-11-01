@@ -1,0 +1,100 @@
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Alım İşlemi</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container my-5">
+        <h1 class="text-center">Stok Otomasyon Takip Sistemi</h1>
+        <h2 class="mt-4 mb-4 text-center">Alım İşlemi</h2>
+
+        <form id="pruchaseForm" action="/purchase" method="POST" class="border p-4 rounded shadow"
+            onsubmit="showAlert(event)">
+            <div class="mb-3">
+                <label for="tarih" class="form-label">Tarih:</label>
+                <input type="date" name="tarih" class="form-control" id="tarih" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="barkod" class="form-label">Barkod:</label>
+                <input type="text" id="barkod" name="barkod" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="isim" class="form-label">İsim:</label>
+                <input type="text" id="isim" name="isimGorunen" class="form-control" readonly required>
+                <!-- Gizli isim alanı -->
+                <input type="hidden" id="hiddenIsim" name="isim">
+            </div>
+
+            <div class="mb-3">
+                <label for="adet" class="form-label">Adet:</label>
+                <input type="number" name="adet" class="form-control" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="fiyat" class="form-label">Alış Fiyatı:</label>
+                <input type="number" name="fiyat" class="form-control" step="0.01" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Alım Yap</button>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+                const today = new Date().toISOString().split('T')[0];
+                document.getElementById('tarih').value = today;
+
+                const barkodInput = document.getElementById('barkod');
+                const isimInput = document.getElementById('isim');
+                const hiddenIsimInput = document.getElementById('hiddenIsim');
+                let data = [];
+
+                // JSON dosyasını yükle
+                fetch('/data/catalog.json')
+                    .then(response => response.json())
+                    .then(jsonData => {
+                        data = jsonData;
+                        console.log('Katalog verisi yüklendi:', data);
+                    })
+                    .catch(error => console.error('Katalog yüklenirken bir hata oluştu:', error));
+
+                // Barkod alanına girildiğinde ürün bilgilerini güncelle
+                barkodInput.addEventListener('input', () => {
+                    console.log('Input event tetiklendi');
+                    const enteredBarkod = barkodInput.value.trim();
+                    console.log('Girilen barkod:', enteredBarkod);
+
+                    const urun = data.find(item => item.barkod === enteredBarkod);
+
+                    if (urun) {
+                        isimInput.value = urun.aciklama;
+                        hiddenIsimInput.value = urun.aciklama;
+                        console.log('Eşleşen ürün bulundu:', urun);
+                    } else {
+                        isimInput.value = '';
+                        hiddenIsimInput.value = '';
+                        console.log('Eşleşen ürün bulunamadı');
+                    }
+                });
+            });
+
+        function showAlert(event) {
+            event.preventDefault(); // Formun gönderimini engeller
+            alert("Satın Alındı!");
+            document.getElementById("pruchaseForm").submit(); // Formun gönderimini devam ettirir
+        }
+    </script>
+
+    <!-- Bootstrap JS ve popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

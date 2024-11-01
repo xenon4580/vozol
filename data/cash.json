@@ -1,0 +1,278 @@
+[
+  {
+    "tarih": "2024-10-28",
+    "barkod": "123123",
+    "isim": "strawberry",
+    "adet": "1",
+    "fiyat": 0
+  },
+  {
+    "tarih": "2024-10-28",
+    "barkod": "123123",
+    "isim": "asdasd",
+    "adet": "123313",
+    "fiyat": 0
+  },
+  {
+    "tarih": "2024-10-28",
+    "barkod": "1",
+    "isim": "dd",
+    "adet": "12",
+    "fiyat": 0
+  },
+  {
+    "tarih": "2024-10-11",
+    "barkod": "1",
+    "isim": "asd",
+    "adet": "2",
+    "fiyat": 0
+  },
+  {
+    "tarih": "2024-10-11",
+    "barkod": "1",
+    "isim": "asd",
+    "adet": "2",
+    "fiyat": 0
+  },
+  {
+    "tarih": "2024-10-11",
+    "barkod": "1",
+    "isim": "asd",
+    "adet": "2",
+    "fiyat": 0
+  },
+  {
+    "tarih": "2024-10-11",
+    "barkod": "1",
+    "adet": "2",
+    "fiyat": 0
+  },
+  {
+    "tarih": "2024-10-28",
+    "barkod": "1",
+    "adet": "1",
+    "fiyat": 0
+  },
+  {
+    "tarih": "2024-10-14",
+    "barkod": "1",
+    "adet": "3",
+    "fiyat": 0
+  },
+  {
+    "tarih": "2024-10-28",
+    "barkod": "1",
+    "adet": "4",
+    "fiyat": 0
+  },
+  {
+    "tarih": "2024-10-28",
+    "barkod": "1212",
+    "adet": "4",
+    "fiyat": 0
+  },
+  {
+    "tarih": "2024-10-01",
+    "barkod": "1",
+    "adet": "2",
+    "afiyat": -450,
+    "islem": "alım"
+  },
+  {
+    "tarih": "2024-10-03",
+    "barkod": "1",
+    "adet": "12",
+    "afiyat": -123,
+    "islem": "alım"
+  },
+  {
+    "tarih": "2024-10-28",
+    "barkod": "1",
+    "adet": "12",
+    "afiyat": -123,
+    "islem": "alım"
+  },
+  {
+    "barkod": "1",
+    "sfiyat": 140,
+    "islem": "satım",
+    "tarih": "2024-10-28T00:36:43.207Z"
+  },
+  {
+    "barkod": "1",
+    "sfiyat": 500,
+    "islem": "satım",
+    "tarih": "2024-10-28"
+  },
+  {
+    "barkod": "1",
+    "sfiyat": 499,
+    "islem": "satım",
+    "tarih": "2024-10-28",
+    "aciklama": "asd"
+  },
+  {
+    "barkod": "1",
+    "sfiyat": 550,
+    "islem": "satım",
+    "tarih": "2024-10-28",
+    "aciklama": "asd"
+  },
+  {
+    "tarih": "2024-10-28",
+    "barkod": "11880",
+    "adet": "15",
+    "afiyat": -500,
+    "islem": "alım"
+  },
+  {
+    "barkod": "11880",
+    "sfiyat": 650,
+    "islem": "satım",
+    "tarih": "2024-10-28",
+    "aciklama": "Star Grape İce"
+  },
+  {
+    "tarih": "2024-10-28",
+    "barkod": "1",
+    "adet": "4",
+    "afiyat": -400,
+    "islem": "alım"
+  },
+  {
+    "tarih": "2024-10-28",
+    "barkod": "1",
+    "adet": "123",
+    "afiyat": -123,
+    "islem": "alım"
+  },
+  {
+    "barkod": "1",
+    "sfiyat": 12,
+    "islem": "satım",
+    "tarih": "2024-10-29",
+    "aciklama": "asd"
+  },
+  {
+    "tarih": "2024-10-30",
+    "barkod": "1",
+    "adet": "1",
+    "afiyat": -500,
+    "islem": "alım"
+  },
+  {
+    "tarih": "2024-10-30",
+    "barkod": "11880",
+    "adet": "5",
+    "afiyat": -500,
+    "islem": "alım"
+  },
+  {
+    "barkod": "11880",
+    "sfiyat": 1500,
+    "islem": "satım",
+    "tarih": "2024-10-30",
+    "aciklama": "Star Grape İce"
+  },
+  {
+    "tarih": "2024-10-30",
+    "barkod": "1",
+    "adet": "1",
+    "afiyat": -123,
+    "islem": "alım"
+  },
+  {
+    "barkod": "1",
+    "sfiyat": 780,
+    "islem": "satım",
+    "tarih": "2024-10-31",
+    "aciklama": "asd"
+  },
+  {
+    "tarih": "2024-10-31",
+    "barkod": "1212",
+    "adet": "5",
+    "afiyat": -60,
+    "islem": "alım"
+  },
+  {
+    "tarih": "2024-10-31",
+    "barkod": "1",
+    "adet": "1",
+    "afiyat": -999,
+    "islem": "alım"
+  },
+  {
+    "tarih": "2024-11-01",
+    "barkod": "5",
+    "adet": "50",
+    "afiyat": -500,
+    "islem": "alım"
+  },
+  {
+    "tarih": "2024-11-01",
+    "barkod": "5",
+    "adet": "50",
+    "afiyat": -12,
+    "islem": "alım"
+  },
+  {
+    "barkod": "5",
+    "sfiyat": 900,
+    "islem": "satım",
+    "tarih": "2024-11-01",
+    "aciklama": "Vista Blueberry"
+  },
+  {
+    "tarih": "2024-11-01",
+    "barkod": "5",
+    "adet": "4",
+    "afiyat": -600,
+    "islem": "alım",
+    "aciklama": "Vista Blueberry"
+  },
+  {
+    "barkod": "5",
+    "sfiyat": 600,
+    "islem": "satım",
+    "tarih": "2024-11-01",
+    "aciklama": "Vista Blueberry"
+  },
+  {
+    "barkod": "5",
+    "sfiyat": 1500,
+    "islem": "satım",
+    "tarih": "2024-11-01",
+    "aciklama": "Vista Blueberry"
+  },
+  {
+    "tarih": "2024-11-01",
+    "barkod": "5",
+    "adet": "1",
+    "afiyat": -5,
+    "islem": "alım",
+    "aciklama": "Vista Blueberry"
+  },
+  {
+    "tarih": "2024-11-01",
+    "barkod": "5",
+    "adet": "4",
+    "afiyat": -500,
+    "islem": "alım",
+    "aciklama": "Vista Blueberry"
+  },
+  {
+    "tarih": "2024-11-01",
+    "barkod": "9",
+    "adet": "12",
+    "afiyat": -250,
+    "islem": "alım",
+    "aciklama": "Gear Blue Mojito"
+  },
+  {
+    "sfiyat": "120",
+    "islem": "satım",
+    "aciklama": "para yatırma işlemi",
+    "tarih": "2024-11-01"
+  }
+]

@@ -1,0 +1,27 @@
+[
+  {
+    "barkod": "123123",
+    "isim": "strawberry",
+    "adet": 123312
+  },
+  {
+    "barkod": "1",
+    "adet": 158
+  },
+  {
+    "barkod": "1212",
+    "adet": 8
+  },
+  {
+    "barkod": "11880",
+    "adet": 18
+  },
+  {
+    "barkod": "5",
+    "adet": 106
+  },
+  {
+    "barkod": "9",
+    "adet": 12
+  }
+]
